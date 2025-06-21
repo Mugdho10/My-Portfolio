@@ -12,6 +12,7 @@ body {
 header,
 footer {
   flex: 0 0 auto;
+  padding-bottom: 0;
 }
 
 main {
@@ -35,20 +36,21 @@ p {
   border-radius: 50%;
 }
 form {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .feedback-input {
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
+  color: black;
+  font-weight: 50;
+  font-size: 0.8rem;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid #3586ff;
+  border: 1px solid #3586ff;
   transition: all 0.3s;
-  padding: 13px;
+  padding: 10px;
   margin-bottom: 15px;
+  height: 30px;
   width: 100%;
   box-sizing: border-box;
   outline: 0;
@@ -56,6 +58,22 @@ form {
 
 .feedback-input:focus {
   border: 2px solid #3586ff;
+}
+
+.social_icon {
+  height: 1px;
+  width: 1px;
+
+}
+
+.menu {
+  font-size: small;
+}
+
+.copyright {
+  font-size: small;
+  color: white;
+  margin-top: 10px;
 }
 
 textarea {
@@ -71,9 +89,9 @@ textarea {
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 1rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;
@@ -81,3 +99,14 @@ textarea {
 [type="submit"]:hover {
   background: #3586ff;
 }
+
+.contact-heading {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+.comment-box {
+  height: 80px;
+}
+
+
